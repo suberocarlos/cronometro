@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css2? family= Arbutus & family= Audiowide & family= Bad+Script & family= Edu+TAS+Beginner:wght@400;500 & family= Holtwood+One+SC & familia= Josefin+Slab:wght@300 & familia= Kay+Pho+Du:wght@400;700 & familia= Peralta & familia= Roboto+Slab:wght@500;900 & display=swap' );
+* {
+    font-family: 'Arbutus', serif;
+    margin: 0;
+    box-sizing: border-box;
+    font-size: 2rem;
+    border-radius: .9rem;
+}
+
+header{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 50px 50px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color:#FFB000;
+    justify-content: center;
+    margin: 15px 55px 15px 55px;
+
+}
+
+body{
+position: fixed;
+width: 100%;
+height: 100vh;
+color: #CD5C08;
+background-color: #001524;
+display: flex;
+justify-content:center;
+align-items: center;
+
+}
+
+.fondo .tiempo{
+    width: 84%;
+    height: 100%;
+    border: 5px solid black;
+    padding: 20px;
+    margin: 15px 15px 70px 100px;
+    display: flex;
+    justify-content: center;
+    border-radius: 2.5rem;
+    background-color: #B4B4B3;
+
+}
+
+.fondo .tiempo span{
+    width: 100%;
+    text-align: center;
+    font-weight: 800;
+}
+
+.tiempo span.ms-colon,
+.tiempo span.milisegundos{
+    color: black;
+}
+
+.botones button{
+    margin: 5px 15px 70px 100px;;
+    text-align: center;
+    margin-top: 20px;
+    cursor: pointer;
+    border-radius: 1rem;
+    font-size: 45px;
+    padding: 15px;
+    outline: none;
+    border: none;
+}
+
+.botones button:hover{
+    background-color:aqua;
+}
+
+.botones button.active,
+.botones button.stopActive{
+    pointer-events: none;
+    opacity: .7;
+    
+}
